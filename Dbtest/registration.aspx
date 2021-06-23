@@ -26,14 +26,14 @@
                         </tr>
                         <tr>
                             <td class="auto-style8">
+                                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TxtLname" ErrorMessage="Please Enter Last Name" ForeColor="Red"></asp:RequiredFieldValidator>
+                  
                                 <asp:Label ID="Label2" runat="server" Text="Last Name"></asp:Label>
                             </td>
                             <td class="auto-style6">
                                 <asp:TextBox ID="TxtLname" runat="server" Height="26px" Width="208px"></asp:TextBox>
                             </td>
-                            <td>
-                                <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TxtLname" ErrorMessage="Please Enter Last Name" ForeColor="Red"></asp:RequiredFieldValidator>
-                            </td>
+                            <td>          </td>
                         </tr>
                         <tr>
                             <td class="auto-style8">
